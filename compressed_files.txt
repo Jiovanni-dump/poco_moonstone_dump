@@ -1,0 +1,3 @@
+product/priv-app/MiuiCamera/MiuiCamera.apk.xz
+modem.img.xz
+boot.img.xz
