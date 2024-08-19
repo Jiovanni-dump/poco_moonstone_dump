@@ -1,0 +1,28 @@
+on property:ro.vendor.oem.wifimac=*
+    setprop ro.ril.oem.wifimac ${ro.vendor.oem.wifimac}
+
+on property:ro.vendor.oem.btmac=*
+    setprop ro.ril.oem.btmac ${ro.vendor.oem.btmac}
+
+# boardid prop
+on property:ro.vendor.boot.hwc=*
+    setprop ro.boot.hwc ${ro.vendor.boot.hwc}
+
+on property:ro.vendor.boot.hwlevel=*
+    setprop ro.boot.hwlevel ${ro.vendor.boot.hwlevel}
+
+on property:ro.vendor.boot.hwversion=*
+    setprop ro.boot.hwversion ${ro.vendor.boot.hwversion}
+
+on property:ro.vendor.product.cert=*
+    setprop ro.product.cert ${ro.vendor.product.cert}
+
+# btmac wifimac
+on property:ro.vendor.oem.wifimac=*
+    setprop ro.ril.oem.wifimac ${ro.vendor.oem.wifimac}
+
+on property:ro.vendor.oem.btmac=*
+    setprop ro.ril.oem.btmac ${ro.vendor.oem.btmac}
+
+on property:ro.vendor.boot.cpuid=*
+    setprop ro.boot.cpuid ${ro.vendor.boot.cpuid}
