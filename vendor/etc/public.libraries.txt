@@ -1,0 +1,10 @@
+libqti-perfd-client.so
+libadsprpc.so
+libcdsprpc.so
+libsdsprpc.so
+libfastcvopt.so
+liblistensoundmodel2.so
+libOpenCL.so
+
+libmialgo_utils.so
+libmialgoengine.so 64

@@ -1,0 +1,489 @@
+{
+  "config":{
+    "hw_platform": ["QRD"],
+    "soc_id": ["507","578"]
+  },
+  "sx933x_0":{
+    "owner": "sns_sx933x",
+    ".sar":{
+      "owner": "sns_sx933x",
+      ".config":{
+        "owner": "sns_sx933x",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "sx933x_0_platform":{
+    "owner": "sns_sx933x",
+    ".config":{
+      "owner": "sns_sx933x",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "0x28"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "155"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "3"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vdd"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".placement":{
+      "owner": "sns_sx933x",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
+    ".thresh":{
+      "owner": "sns_sx933x",
+      "threshold_0":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      },
+      "threshold_1":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      },
+      "threshold_2":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      },
+      "threshold_3":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      }
+    },
+    ".offset":{
+      "owner": "sns_sx933x",
+        "0":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "1":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "2":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "3":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "4":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+    },
+   ".offset_orignal":{
+      "owner": "sns_sx933x",
+        "0":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "1":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+       "2":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "3":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+   },
+    ".reserve":{
+      "owner": "sns_sx933x",
+       "0":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "1":{ "type": "flt", "ver": "2",
+          "data": "5000.0"
+        },
+        "2":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "3":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "4":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "5":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "6":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "7":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "8":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "9":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "10":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "11":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "12":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "13":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "14":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "15":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "16":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "17":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "18":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        },
+        "19":{ "type": "flt", "ver": "0",
+          "data": "0.0"
+        }
+    },
+    ".register_config":{
+      "owner": "sns_sx933x",
+      "Is_config":{ "type": "int", "ver": "1",
+        "data": "0"
+      },
+      "0x8020":{ "type": "int", "ver": "1",
+        "data": "0x78"
+      },
+      "0x4004":{ "type": "int", "ver": "1",
+        "data": "0x00000400"
+      },
+      "0x4008":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x4054":{ "type": "int", "ver": "1",
+        "data": "0x400"
+      },
+      "0x42C0":{ "type": "int", "ver": "1",
+        "data": "0x8000000"
+      },
+      "0x42C4":{ "type": "int", "ver": "1",
+        "data": "0x3F"
+      },
+      "0x800C":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8010":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8014":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8018":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x801C":{ "type": "int", "ver": "1",
+        "data": "0x31"
+      },
+      "0x8024":{ "type": "int", "ver": "1",
+        "data": "0x10000A76"
+      },
+      "0x8028":{ "type": "int", "ver": "1",
+        "data": "0x3FFE82DA"
+      },
+      "0x802C":{ "type": "int", "ver": "1",
+        "data": "0x10000A76"
+      },
+      "0x8030":{ "type": "int", "ver": "1",
+        "data": "0x3FF78265"
+      },
+      "0x8034":{ "type": "int", "ver": "1",
+        "data": "0x10000A76"
+      },
+      "0x8038":{ "type": "int", "ver": "1",
+        "data": "0x3FBF82C5"
+      },
+      "0x803C":{ "type": "int", "ver": "1",
+        "data": "0x10000A96"
+      },
+      "0x8040":{ "type": "int", "ver": "1",
+        "data": "0x3DFF8267"
+      },
+      "0x8044":{ "type": "int", "ver": "1",
+        "data": "0x10000A96"
+      },
+      "0x8048":{ "type": "int", "ver": "1",
+        "data": "0x2FFF82E1"
+      },
+      "0x804C":{ "type": "int", "ver": "1",
+        "data": "0x88E"
+      },
+      "0x8050":{ "type": "int", "ver": "1",
+        "data": "0x80001EE6"
+      },
+      "0x8054":{ "type": "int", "ver": "1",
+        "data": "0x10323805"
+      },
+      "0x8058":{ "type": "int", "ver": "1",
+        "data": "0x20630030"
+      },
+      "0x805C":{ "type": "int", "ver": "1",
+        "data": "0x5300"
+      },
+      "0x8060":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8064":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8068":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x806C":{ "type": "int", "ver": "1",
+        "data": "0x20002000"
+      },
+      "0x8070":{ "type": "int", "ver": "1",
+        "data": "0x10000"
+      },
+      "0x8074":{ "type": "int", "ver": "1",
+        "data": "0x1652FF05"
+      },
+      "0x8078":{ "type": "int", "ver": "1",
+        "data": "0x20630030"
+      },
+      "0x807C":{ "type": "int", "ver": "1",
+        "data": "0x5300"
+      }, 
+      "0x8080":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8084":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8088":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x808C":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8090":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8094":{ "type": "int", "ver": "1",
+        "data": "0x10322805"
+      },
+      "0x8098":{ "type": "int", "ver": "1",
+        "data": "0x20630030"
+      },
+      "0x809C":{ "type": "int", "ver": "1",
+        "data": "0x5300"
+      },
+      "0x80A0":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80A4":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80A8":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80AC":{ "type": "int", "ver": "1",
+        "data": "0x2000200"
+      },
+      "0x80B0":{ "type": "int", "ver": "1",
+        "data": "0x10000"
+      },
+      "0x80B4":{ "type": "int", "ver": "1",
+        "data": "0x10324705"
+      }, 
+      "0x80B8":{ "type": "int", "ver": "1",
+        "data": "0x20630030"
+      },
+      "0x80BC":{ "type": "int", "ver": "1",
+        "data": "0x5300"
+      },
+      "0x80C0":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80C4":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80C8":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80CC":{ "type": "int", "ver": "1",
+        "data": "0x230023"
+      },
+      "0x80D0":{ "type": "int", "ver": "1",
+        "data": "0x20000"
+      },
+      "0x80D4":{ "type": "int", "ver": "1",
+        "data": "0x1642FF05"
+      },
+      "0x80D8":{ "type": "int", "ver": "1",
+        "data": "0x20630031"
+      },
+      "0x80DC":{ "type": "int", "ver": "1",
+        "data": "0x7F805300"
+      },
+      "0x80E0":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80E4":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80E8":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80EC":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80F0":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x80F4":{ "type": "int", "ver": "1",
+        "data": "0x10162800"
+      },
+      "0x80F8":{ "type": "int", "ver": "1",
+        "data": "0x20400031"
+      },
+      "0x80FC":{ "type": "int", "ver": "1",
+        "data": "0x54AC5300"
+      },
+      "0x8100":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8104":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8108":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x810C":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8110":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8124":{ "type": "int", "ver": "1",
+        "data": "0x4000009"
+      },
+      "0x8128":{ "type": "int", "ver": "1",
+        "data": "0x400000C"
+      },
+      "0x812C":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8130":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8134":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8138":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x813C":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8140":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8144":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x8148":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },
+      "0x814C":{ "type": "int", "ver": "1",
+        "data": "0x00"
+      },      
+      "0x81A4":{ "type": "int", "ver": "1",
+        "data": "0x1D00000"
+      },
+      "0x8020":{ "type": "int", "ver": "1",
+        "data": "0x1F001F"
+      }
+    }
+  }
+}
